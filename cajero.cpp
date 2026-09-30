@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    
+
     double saldo = 0;
     double monto;
     int opcion;
@@ -25,8 +25,7 @@ int main() {
             case 2:
                 cout << "Cantidad a retirar: $";
                 cin >> monto;
-                // Comparar cantidades (mayor que) no se puede con switch,
-                // por eso aqui se usa if
+                
                 if (monto > saldo) {
                     cout << "Fondos insuficientes." << endl;
                 } else {

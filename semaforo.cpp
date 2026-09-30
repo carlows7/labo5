@@ -1,13 +1,12 @@
 #include <iostream>
 using namespace std;
 int main() {
-    
+
     char color;
 
     cout << "Ingresa un color (R, A, V): ";
     cin >> color;
 
-    // Se ponen dos case juntos para aceptar mayúscula y minúscula
     switch (color) {
         case 'R':
         case 'r':
