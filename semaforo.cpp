@@ -7,7 +7,8 @@ int main() {
     cout << "Ingresa un color (R, A, V): ";
     cin >> color;
 
-    switch (color) {
+//se le pide el color al usuario 
+switch (color) {
         case 'R':
         case 'r':
             cout << "Alto" << endl;

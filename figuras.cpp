@@ -1,18 +1,19 @@
 #include <iostream>
 using namespace std;
 int main() {
-    
+
     int opcion;
     const double PI = 3.1416;
     double radio, lado, base, altura;
-
+    //se pide que ingrese la figura para calcular el area
     cout << "=== AREAS DE FIGURAS ===" << endl;
     cout << "1. Circulo" << endl;
     cout << "2. Cuadrado" << endl;
     cout << "3. Triangulo" << endl;
     cout << "Elige una opcion: ";
     cin >> opcion;
-
+    
+    //se ingresan los valores 
     switch (opcion) {
         case 1:
             cout << "Ingresa el radio: ";
